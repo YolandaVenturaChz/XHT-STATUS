@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <section class="masthead col-12 ">
+    <h1>Qué te interesa hoy</h1>
+    <div class="site-container">
+      <form id="search-form">
+        <label for=" search-keyword " class="visuallyhidden">Qué buscamos</label>
+        <input type="text" id="search-keyword" onfocus="this.value=''" name="search-keyword" placeholder="e.g. Android" required>
+        <input type="submit" id="submit-btn" value="XHT">
+        <input type="submit" id="sub" value="FECHT">
+      </form>
+    </div>
+  </section>
+  <main class="container">
+    <div class="row">
+      <section class="col-12 tesoro">
+        <div id="response-container"></div>
+      </section>
+    </div>
+  </main>
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
